@@ -1,724 +1,476 @@
 /* Nova Tool CSS */
-.my-component-scoped :is(.sr-only) {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0
-}
-.my-component-scoped :is(.fixed) {
+.tool-quiz :is(.fixed) {
     position: fixed
 }
-.my-component-scoped :is(.relative) {
+.tool-quiz :is(.relative) {
     position: relative
 }
-.my-component-scoped :is(.inset-0) {
+.tool-quiz :is(.inset-0) {
     inset: 0px
 }
-.my-component-scoped :is(.z-10) {
+.tool-quiz :is(.z-10) {
     z-index: 10
 }
-.my-component-scoped :is(.mx-auto) {
-    margin-left: auto;
-    margin-right: auto
-}
-.my-component-scoped :is(.mb-6) {
-    margin-bottom: 1.5rem
-}
-.my-component-scoped :is(.mb-2) {
+.tool-quiz :is(.mb-2) {
     margin-bottom: 0.5rem
 }
-.my-component-scoped :is(.mr-2) {
-    margin-right: 0.5rem
-}
-.my-component-scoped :is(.mt-2) {
-    margin-top: 0.5rem
-}
-.my-component-scoped :is(.mt-3) {
-    margin-top: 0.75rem
-}
-.my-component-scoped :is(.ml-auto) {
-    margin-left: auto
-}
-.my-component-scoped :is(.mb-4) {
+.tool-quiz :is(.mb-4) {
     margin-bottom: 1rem
 }
-.my-component-scoped :is(.ml-2) {
+.tool-quiz :is(.mb-6) {
+    margin-bottom: 1.5rem
+}
+.tool-quiz :is(.ml-2) {
     margin-left: 0.5rem
 }
-.my-component-scoped :is(.block) {
+.tool-quiz :is(.mr-2) {
+    margin-right: 0.5rem
+}
+.tool-quiz :is(.mt-2) {
+    margin-top: 0.5rem
+}
+.tool-quiz :is(.block) {
     display: block
 }
-.my-component-scoped :is(.flex) {
+.tool-quiz :is(.flex) {
     display: flex
 }
-.my-component-scoped :is(.inline-flex) {
-    display: inline-flex
-}
-.my-component-scoped :is(.h-12) {
-    height: 3rem
-}
-.my-component-scoped :is(.h-6) {
-    height: 1.5rem
-}
-.my-component-scoped :is(.h-3) {
-    height: 0.75rem
-}
-.my-component-scoped :is(.h-8) {
-    height: 2rem
-}
-.my-component-scoped :is(.h-4) {
+.tool-quiz :is(.h-4) {
     height: 1rem
 }
-.my-component-scoped :is(.h-10) {
-    height: 2.5rem
+.tool-quiz :is(.h-6) {
+    height: 1.5rem
 }
-.my-component-scoped :is(.max-h-full) {
+.tool-quiz :is(.h-8) {
+    height: 2rem
+}
+.tool-quiz :is(.max-h-full) {
     max-height: 100%
 }
-.my-component-scoped :is(.min-h-full) {
+.tool-quiz :is(.min-h-full) {
     min-height: 100%
 }
-.my-component-scoped :is(.w-full) {
-    width: 100%
-}
-.my-component-scoped :is(.w-12) {
-    width: 3rem
-}
-.my-component-scoped :is(.w-6) {
-    width: 1.5rem
-}
-.my-component-scoped :is(.w-screen) {
-    width: 100vw
-}
-.my-component-scoped :is(.w-3) {
-    width: 0.75rem
-}
-.my-component-scoped :is(.w-8) {
-    width: 2rem
-}
-.my-component-scoped :is(.w-4) {
+.tool-quiz :is(.w-4) {
     width: 1rem
 }
-.my-component-scoped :is(.w-fit) {
+.tool-quiz :is(.w-6) {
+    width: 1.5rem
+}
+.tool-quiz :is(.w-8) {
+    width: 2rem
+}
+.tool-quiz :is(.w-fit) {
     width: -moz-fit-content;
     width: fit-content
 }
-.my-component-scoped :is(.w-10) {
-    width: 2.5rem
+.tool-quiz :is(.w-full) {
+    width: 100%
 }
-.my-component-scoped :is(.max-w-lg) {
+.tool-quiz :is(.w-screen) {
+    width: 100vw
+}
+.tool-quiz :is(.max-w-lg) {
     max-width: 32rem
 }
-.my-component-scoped :is(.max-w-2xl) {
-    max-width: 42rem
-}
-.my-component-scoped :is(.flex-shrink-0) {
-    flex-shrink: 0
-}
-.my-component-scoped :is(.translate-y-0) {
-    --tw-translate-y: 0px;
+.tool-quiz :is(.transform) {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
-.my-component-scoped :is(.translate-y-4) {
-    --tw-translate-y: 1rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-.my-component-scoped :is(.transform) {
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-.my-component-scoped :is(.list-inside) {
+.tool-quiz :is(.list-inside) {
     list-style-position: inside
 }
-.my-component-scoped :is(.list-decimal) {
-    list-style-type: decimal
-}
-.my-component-scoped :is(.list-disc) {
+.tool-quiz :is(.list-disc) {
     list-style-type: disc
 }
-.my-component-scoped :is(.flex-col) {
+.tool-quiz :is(.flex-col) {
     flex-direction: column
 }
-.my-component-scoped :is(.items-start) {
+.tool-quiz :is(.items-start) {
     align-items: flex-start
 }
-.my-component-scoped :is(.items-end) {
+.tool-quiz :is(.items-end) {
     align-items: flex-end
 }
-.my-component-scoped :is(.items-center) {
+.tool-quiz :is(.items-center) {
     align-items: center
 }
-.my-component-scoped :is(.justify-end) {
+.tool-quiz :is(.justify-end) {
     justify-content: flex-end
 }
-.my-component-scoped :is(.justify-center) {
+.tool-quiz :is(.justify-center) {
     justify-content: center
 }
-.my-component-scoped :is(.justify-between) {
-    justify-content: space-between
-}
-.my-component-scoped :is(.space-y-4 > :not([hidden]) ~ :not([hidden])) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1rem * var(--tw-space-y-reverse))
-}
-.my-component-scoped :is(.space-y-2 > :not([hidden]) ~ :not([hidden])) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse))
-}
-.my-component-scoped :is(.space-x-2 > :not([hidden]) ~ :not([hidden])) {
+.tool-quiz :is(.space-x-2 > :not([hidden]) ~ :not([hidden])) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse));
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))
 }
-.my-component-scoped :is(.space-y-6 > :not([hidden]) ~ :not([hidden])) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
-}
-.my-component-scoped :is(.space-y-10 > :not([hidden]) ~ :not([hidden])) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse))
-}
-.my-component-scoped :is(.space-y-5 > :not([hidden]) ~ :not([hidden])) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(1.25rem * var(--tw-space-y-reverse))
-}
-.my-component-scoped :is(.space-x-4 > :not([hidden]) ~ :not([hidden])) {
+.tool-quiz :is(.space-x-4 > :not([hidden]) ~ :not([hidden])) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)))
 }
-.my-component-scoped :is(.space-y-1 > :not([hidden]) ~ :not([hidden])) {
+.tool-quiz :is(.space-y-1 > :not([hidden]) ~ :not([hidden])) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0.25rem * var(--tw-space-y-reverse))
 }
-.my-component-scoped :is(.space-y-8 > :not([hidden]) ~ :not([hidden])) {
+.tool-quiz :is(.space-y-2 > :not([hidden]) ~ :not([hidden])) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse))
+}
+.tool-quiz :is(.space-y-4 > :not([hidden]) ~ :not([hidden])) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse))
+}
+.tool-quiz :is(.space-y-5 > :not([hidden]) ~ :not([hidden])) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.25rem * var(--tw-space-y-reverse))
+}
+.tool-quiz :is(.space-y-6 > :not([hidden]) ~ :not([hidden])) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
+}
+.tool-quiz :is(.space-y-8 > :not([hidden]) ~ :not([hidden])) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse))
 }
-.my-component-scoped :is(.overflow-hidden) {
+.tool-quiz :is(.overflow-hidden) {
     overflow: hidden
 }
-.my-component-scoped :is(.overflow-y-auto) {
+.tool-quiz :is(.overflow-y-auto) {
     overflow-y: auto
 }
-.my-component-scoped :is(.rounded-lg) {
-    border-radius: 0.5rem
-}
-.my-component-scoped :is(.rounded-full) {
-    border-radius: 9999px
-}
-.my-component-scoped :is(.rounded-md) {
-    border-radius: 0.375rem
-}
-.my-component-scoped :is(.rounded) {
+.tool-quiz :is(.rounded) {
     border-radius: 0.25rem
 }
-.my-component-scoped :is(.rounded-b) {
+.tool-quiz :is(.rounded-lg) {
+    border-radius: 0.5rem
+}
+.tool-quiz :is(.rounded-b) {
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem
 }
-.my-component-scoped :is(.rounded-t) {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem
-}
-.my-component-scoped :is(.border) {
+.tool-quiz :is(.border) {
     border-width: 1px
 }
-.my-component-scoped :is(.border-b) {
-    border-bottom-width: 1px
-}
-.my-component-scoped :is(.border-t) {
+.tool-quiz :is(.border-t) {
     border-top-width: 1px
 }
-.my-component-scoped :is(.border-gray-300) {
-    --tw-border-opacity: 1;
-    border-color: rgb(209 213 219 / var(--tw-border-opacity))
-}
-.my-component-scoped :is(.border-gray-200) {
+.tool-quiz :is(.border-gray-200) {
     --tw-border-opacity: 1;
     border-color: rgb(229 231 235 / var(--tw-border-opacity))
 }
-.my-component-scoped :is(.bg-gray-50) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity))
+.tool-quiz :is(.border-gray-300) {
+    --tw-border-opacity: 1;
+    border-color: rgb(209 213 219 / var(--tw-border-opacity))
 }
-.my-component-scoped :is(.bg-blue-700) {
+.tool-quiz :is(.bg-blue-700) {
     --tw-bg-opacity: 1;
     background-color: rgb(29 78 216 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.bg-gray-500) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(107 114 128 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.bg-red-100) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 226 226 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.bg-red-600) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(220 38 38 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.bg-white) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.bg-transparent) {
-    background-color: transparent
-}
-.my-component-scoped :is(.bg-gray-100) {
+.tool-quiz :is(.bg-gray-100) {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.bg-gray-900) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.bg-gray-200) {
+.tool-quiz :is(.bg-gray-200) {
     --tw-bg-opacity: 1;
     background-color: rgb(229 231 235 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.bg-red-700) {
+.tool-quiz :is(.bg-gray-50) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.bg-gray-500) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(107 114 128 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.bg-red-700) {
     --tw-bg-opacity: 1;
     background-color: rgb(185 28 28 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.bg-opacity-75) {
+.tool-quiz :is(.bg-white) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.bg-gray-800) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.bg-gray-900) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.bg-opacity-75) {
     --tw-bg-opacity: 0.75
 }
-.my-component-scoped :is(.p-5) {
-    padding: 1.25rem
-}
-.my-component-scoped :is(.p-2) {
+.tool-quiz :is(.p-2) {
     padding: 0.5rem
 }
-.my-component-scoped :is(.p-2\.5) {
+.tool-quiz :is(.p-2\.5) {
     padding: 0.625rem
 }
-.my-component-scoped :is(.p-4) {
+.tool-quiz :is(.p-4) {
     padding: 1rem
 }
-.my-component-scoped :is(.p-6) {
+.tool-quiz :is(.p-5) {
+    padding: 1.25rem
+}
+.tool-quiz :is(.p-6) {
     padding: 1.5rem
 }
-.my-component-scoped :is(.px-5) {
+.tool-quiz :is(.px-5) {
     padding-left: 1.25rem;
     padding-right: 1.25rem
 }
-.my-component-scoped :is(.py-2) {
+.tool-quiz :is(.py-2) {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem
 }
-.my-component-scoped :is(.py-2\.5) {
+.tool-quiz :is(.py-2\.5) {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem
 }
-.my-component-scoped :is(.px-3) {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem
-}
-.my-component-scoped :is(.px-4) {
-    padding-left: 1rem;
-    padding-right: 1rem
-}
-.my-component-scoped :is(.py-3) {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem
-}
-.my-component-scoped :is(.pb-4) {
-    padding-bottom: 1rem
-}
-.my-component-scoped :is(.pt-5) {
-    padding-top: 1.25rem
-}
-.my-component-scoped :is(.pl-5) {
+.tool-quiz :is(.pl-5) {
     padding-left: 1.25rem
 }
-.my-component-scoped :is(.text-left) {
+.tool-quiz :is(.text-left) {
     text-align: left
 }
-.my-component-scoped :is(.text-center) {
+.tool-quiz :is(.text-center) {
     text-align: center
 }
-.my-component-scoped :is(.text-sm) {
-    font-size: 0.875rem;
-    line-height: 1.25rem
-}
-.my-component-scoped :is(.text-base) {
+.tool-quiz :is(.text-base) {
     font-size: 1rem;
     line-height: 1.5rem
 }
-.my-component-scoped :is(.text-xl) {
+.tool-quiz :is(.text-sm) {
+    font-size: 0.875rem;
+    line-height: 1.25rem
+}
+.tool-quiz :is(.text-xl) {
     font-size: 1.25rem;
     line-height: 1.75rem
 }
-.my-component-scoped :is(.font-medium) {
-    font-weight: 500
-}
-.my-component-scoped :is(.font-semibold) {
-    font-weight: 600
-}
-.my-component-scoped :is(.font-bold) {
+.tool-quiz :is(.font-bold) {
     font-weight: 700
 }
-.my-component-scoped :is(.font-normal) {
+.tool-quiz :is(.font-medium) {
+    font-weight: 500
+}
+.tool-quiz :is(.font-normal) {
     font-weight: 400
 }
-.my-component-scoped :is(.uppercase) {
+.tool-quiz :is(.uppercase) {
     text-transform: uppercase
 }
-.my-component-scoped :is(.leading-6) {
-    line-height: 1.5rem
-}
-.my-component-scoped :is(.leading-relaxed) {
-    line-height: 1.625
-}
-.my-component-scoped :is(.text-blue-500) {
-    --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.text-gray-900) {
-    --tw-text-opacity: 1;
-    color: rgb(17 24 39 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.text-white) {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.text-gray-500) {
-    --tw-text-opacity: 1;
-    color: rgb(107 114 128 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.text-red-600) {
-    --tw-text-opacity: 1;
-    color: rgb(220 38 38 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.text-gray-400) {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.text-blue-600) {
+.tool-quiz :is(.text-blue-600) {
     --tw-text-opacity: 1;
     color: rgb(37 99 235 / var(--tw-text-opacity))
 }
-.my-component-scoped :is(.opacity-0) {
-    opacity: 0
+.tool-quiz :is(.text-gray-500) {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity))
 }
-.my-component-scoped :is(.opacity-100) {
-    opacity: 1
+.tool-quiz :is(.text-gray-900) {
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity))
 }
-.my-component-scoped :is(.shadow-sm) {
-    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+.tool-quiz :is(.text-red-600) {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity))
 }
-.my-component-scoped :is(.shadow-xl) {
-    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+.tool-quiz :is(.text-white) {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
 }
-.my-component-scoped :is(.shadow) {
+.tool-quiz :is(.shadow) {
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
-.my-component-scoped :is(.outline-none) {
+.tool-quiz :is(.shadow-xl) {
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+.tool-quiz :is(.outline-none) {
     outline: 2px solid transparent;
     outline-offset: 2px
 }
-.my-component-scoped :is(.ring-1) {
-    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
-}
-.my-component-scoped :is(.ring-inset) {
-    --tw-ring-inset: inset
-}
-.my-component-scoped :is(.ring-gray-300) {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity))
-}
-.my-component-scoped :is(.transition-all) {
+.tool-quiz :is(.transition-all) {
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms
 }
-.my-component-scoped :is(.transition-opacity) {
+.tool-quiz :is(.transition-opacity) {
     transition-property: opacity;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms
 }
-.my-component-scoped :is(.duration-200) {
-    transition-duration: 200ms
-}
-.my-component-scoped :is(.duration-300) {
-    transition-duration: 300ms
-}
-.my-component-scoped :is(.ease-in) {
-    transition-timing-function: cubic-bezier(0.4, 0, 1, 1)
-}
-.my-component-scoped :is(.ease-out) {
-    transition-timing-function: cubic-bezier(0, 0, 0.2, 1)
-}
-.my-component-scoped :is(.hover\:bg-blue-800:hover) {
+.tool-quiz :is(.hover\:bg-blue-800:hover) {
     --tw-bg-opacity: 1;
     background-color: rgb(30 64 175 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.hover\:bg-gray-50:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.hover\:bg-red-500:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(239 68 68 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.hover\:bg-gray-100:hover) {
+.tool-quiz :is(.hover\:bg-gray-100:hover) {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.hover\:bg-gray-200:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.hover\:bg-red-800:hover) {
+.tool-quiz :is(.hover\:bg-red-800:hover) {
     --tw-bg-opacity: 1;
     background-color: rgb(153 27 27 / var(--tw-bg-opacity))
 }
-.my-component-scoped :is(.hover\:text-gray-900:hover) {
+.tool-quiz :is(.hover\:text-gray-900:hover) {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity))
 }
-.my-component-scoped :is(.hover\:text-blue-700:hover) {
-    --tw-text-opacity: 1;
-    color: rgb(29 78 216 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.focus\:z-10:focus) {
+.tool-quiz :is(.focus\:z-10:focus) {
     z-index: 10
 }
-.my-component-scoped :is(.focus\:border-blue-500:focus) {
+.tool-quiz :is(.focus\:border-blue-500:focus) {
     --tw-border-opacity: 1;
     border-color: rgb(59 130 246 / var(--tw-border-opacity))
 }
-.my-component-scoped :is(.focus\:outline-none:focus) {
+.tool-quiz :is(.focus\:outline-none:focus) {
     outline: 2px solid transparent;
     outline-offset: 2px
 }
-.my-component-scoped :is(.focus\:ring-4:focus) {
-    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
-}
-.my-component-scoped :is(.focus\:ring-2:focus) {
+.tool-quiz :is(.focus\:ring-2:focus) {
     --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
     --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
 }
-.my-component-scoped :is(.focus\:ring-blue-500:focus) {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity))
+.tool-quiz :is(.focus\:ring-4:focus) {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
 }
-.my-component-scoped :is(.focus\:ring-blue-300:focus) {
+.tool-quiz :is(.focus\:ring-blue-300:focus) {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity))
 }
-.my-component-scoped :is(.focus\:ring-gray-200:focus) {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity))
-}
-.my-component-scoped :is(.focus\:ring-red-300:focus) {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(252 165 165 / var(--tw-ring-opacity))
-}
-.my-component-scoped :is(.dark .dark\:border-gray-600) {
-    --tw-border-opacity: 1;
-    border-color: rgb(75 85 99 / var(--tw-border-opacity))
-}
-.my-component-scoped :is(.dark .dark\:border-gray-500) {
-    --tw-border-opacity: 1;
-    border-color: rgb(107 114 128 / var(--tw-border-opacity))
-}
-.my-component-scoped :is(.dark .dark\:bg-gray-700) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(55 65 81 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:bg-blue-600) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(37 99 235 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:bg-gray-800) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:bg-gray-900) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:bg-red-600) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(220 38 38 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:text-white) {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.dark .dark\:text-gray-300) {
-    --tw-text-opacity: 1;
-    color: rgb(209 213 219 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.dark .dark\:text-gray-400) {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-placeholder-opacity))
-}
-.my-component-scoped :is(.dark .dark\:placeholder-gray-400)::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-placeholder-opacity))
-}
-.my-component-scoped :is(.dark .dark\:ring-offset-gray-800) {
-    --tw-ring-offset-color: #1f2937
-}
-.my-component-scoped :is(.dark .dark\:hover\:bg-blue-700:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(29 78 216 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:hover\:bg-gray-600:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(75 85 99 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:hover\:bg-gray-700:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(55 65 81 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:hover\:bg-red-700:hover) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity))
-}
-.my-component-scoped :is(.dark .dark\:hover\:text-white:hover) {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-.my-component-scoped :is(.dark .dark\:focus\:border-blue-500:focus) {
-    --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
-}
-.my-component-scoped :is(.dark .dark\:focus\:ring-blue-500:focus) {
+.tool-quiz :is(.focus\:ring-blue-500:focus) {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity))
 }
-.my-component-scoped :is(.dark .dark\:focus\:ring-blue-800:focus) {
+.tool-quiz :is(.focus\:ring-red-300:focus) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity))
+    --tw-ring-color: rgb(252 165 165 / var(--tw-ring-opacity))
 }
-.my-component-scoped :is(.dark .dark\:focus\:ring-gray-600:focus) {
+.tool-quiz :is(.dark .dark\:border-gray-500) {
+    --tw-border-opacity: 1;
+    border-color: rgb(107 114 128 / var(--tw-border-opacity))
+}
+.tool-quiz :is(.dark .dark\:border-gray-600) {
+    --tw-border-opacity: 1;
+    border-color: rgb(75 85 99 / var(--tw-border-opacity))
+}
+.tool-quiz :is(.dark .dark\:bg-blue-600) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:bg-gray-700) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:bg-gray-900) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:bg-red-600) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(220 38 38 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:bg-gray-500) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(107 114 128 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:bg-gray-800) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:text-gray-300) {
+    --tw-text-opacity: 1;
+    color: rgb(209 213 219 / var(--tw-text-opacity))
+}
+.tool-quiz :is(.dark .dark\:text-gray-400) {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity))
+}
+.tool-quiz :is(.dark .dark\:text-white) {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+.tool-quiz :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-placeholder-opacity))
+}
+.tool-quiz :is(.dark .dark\:placeholder-gray-400)::placeholder {
+    --tw-placeholder-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-placeholder-opacity))
+}
+.tool-quiz :is(.dark .dark\:ring-offset-gray-800) {
+    --tw-ring-offset-color: #1f2937
+}
+.tool-quiz :is(.dark .dark\:hover\:bg-blue-700:hover) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:hover\:bg-gray-600:hover) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:hover\:bg-red-700:hover) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity))
+}
+.tool-quiz :is(.dark .dark\:hover\:text-white:hover) {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+.tool-quiz :is(.dark .dark\:focus\:border-blue-500:focus) {
+    --tw-border-opacity: 1;
+    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+}
+.tool-quiz :is(.dark .dark\:focus\:ring-blue-500:focus) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(75 85 99 / var(--tw-ring-opacity))
+    --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity))
 }
-.my-component-scoped :is(.dark .dark\:focus\:ring-blue-600:focus) {
+.tool-quiz :is(.dark .dark\:focus\:ring-blue-600:focus) {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(37 99 235 / var(--tw-ring-opacity))
 }
-.my-component-scoped :is(.dark .dark\:focus\:ring-gray-700:focus) {
+.tool-quiz :is(.dark .dark\:focus\:ring-blue-800:focus) {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity))
+    --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity))
 }
-.my-component-scoped :is(.dark .dark\:focus\:ring-red-900:focus) {
+.tool-quiz :is(.dark .dark\:focus\:ring-gray-600:focus) {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(75 85 99 / var(--tw-ring-opacity))
+}
+.tool-quiz :is(.dark .dark\:focus\:ring-red-900:focus) {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(127 29 29 / var(--tw-ring-opacity))
 }
 @media (min-width: 640px) {
-    .my-component-scoped :is(.sm\:mx-0) {
-        margin-left: 0px;
-        margin-right: 0px
-    }
-    .my-component-scoped :is(.sm\:my-8) {
+    .tool-quiz :is(.sm\:my-8) {
         margin-top: 2rem;
         margin-bottom: 2rem
     }
-    .my-component-scoped :is(.sm\:ml-3) {
-        margin-left: 0.75rem
-    }
-    .my-component-scoped :is(.sm\:ml-4) {
-        margin-left: 1rem
-    }
-    .my-component-scoped :is(.sm\:mt-0) {
-        margin-top: 0px
-    }
-    .my-component-scoped :is(.sm\:flex) {
-        display: flex
-    }
-    .my-component-scoped :is(.sm\:h-10) {
-        height: 2.5rem
-    }
-    .my-component-scoped :is(.sm\:w-10) {
-        width: 2.5rem
-    }
-    .my-component-scoped :is(.sm\:w-auto) {
-        width: auto
-    }
-    .my-component-scoped :is(.sm\:w-full) {
+    .tool-quiz :is(.sm\:w-full) {
         width: 100%
     }
-    .my-component-scoped :is(.sm\:max-w-lg) {
-        max-width: 32rem
-    }
-    .my-component-scoped :is(.sm\:max-w-xl) {
-        max-width: 36rem
-    }
-    .my-component-scoped :is(.sm\:max-w-4xl) {
-        max-width: 56rem
-    }
-    .my-component-scoped :is(.sm\:max-w-2xl) {
+    .tool-quiz :is(.sm\:max-w-2xl) {
         max-width: 42rem
     }
-    .my-component-scoped :is(.sm\:translate-y-0) {
-        --tw-translate-y: 0px;
-        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-    }
-    .my-component-scoped :is(.sm\:scale-100) {
-        --tw-scale-x: 1;
-        --tw-scale-y: 1;
-        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-    }
-    .my-component-scoped :is(.sm\:scale-95) {
-        --tw-scale-x: .95;
-        --tw-scale-y: .95;
-        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-    }
-    .my-component-scoped :is(.sm\:flex-row-reverse) {
-        flex-direction: row-reverse
-    }
-    .my-component-scoped :is(.sm\:items-start) {
-        align-items: flex-start
-    }
-    .my-component-scoped :is(.sm\:items-center) {
+    .tool-quiz :is(.sm\:items-center) {
         align-items: center
     }
-    .my-component-scoped :is(.sm\:p-0) {
+    .tool-quiz :is(.sm\:p-0) {
         padding: 0px
-    }
-    .my-component-scoped :is(.sm\:p-6) {
-        padding: 1.5rem
-    }
-    .my-component-scoped :is(.sm\:px-6) {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem
-    }
-    .my-component-scoped :is(.sm\:pb-4) {
-        padding-bottom: 1rem
-    }
-    .my-component-scoped :is(.sm\:text-left) {
-        text-align: left
     }
 }

@@ -11,5 +11,6 @@ module.exports = {
       extend: {},
     },
     plugins: [],
-    important: '.my-component-scoped'
+    important: '.tool-quiz'
+
   }

@@ -1,11 +1,12 @@
 <template>
-  <div class="my-component-scoped">
+  <div class="tool-quiz">
     <Head title="Quiz" />
+
 
     <Heading class="mb-6">Quiz</Heading>
 
     <Card
-      class=" w-full p-5"
+      class=" w-full p-5 dark:bg-gray-800"
     >
        
     <div class=" flex flex-col items-start space-y-8 w-full">
