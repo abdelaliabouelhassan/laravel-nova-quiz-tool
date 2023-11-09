@@ -16,61 +16,7 @@ class CourseController extends Controller
     }
 
     public function storeQuiz(Request $request){
-        // {
-        //     "questions": [
-        //         {
-        //             "course_id": 1,
-        //             "questions": [
-        //                 {
-        //                     "question": "dsfdsf",
-        //                     "has_comment": true,
-        //                     "graded": true,
-        //                     "questions": [
-        //                         {
-        //                             "answer": "dsfdsf",
-        //                             "is_correct": true
-        //                         },
-        //                         {
-        //                             "answer": "dsfff",
-        //                             "is_correct": false
-        //                         }
-        //                     ]
-        //                 },
-        //                 {
-        //                     "question": "dsfsdf",
-        //                     "has_comment": false,
-        //                     "graded": true,
-        //                     "questions": [
-        //                         {
-        //                             "answer": "dddd",
-        //                             "is_correct": true
-        //                         }
-        //                     ]
-        //                 }
-        //             ]
-        //         },
-        //         {
-        //             "course_id": 2,
-        //             "questions": [
-        //                 {
-        //                     "question": "dsfdsf",
-        //                     "has_comment": true,
-        //                     "graded": false,
-        //                     "questions": [
-        //                         {
-        //                             "answer": "dsfsdf",
-        //                             "is_correct": true
-        //                         },
-        //                         {
-        //                             "answer": "dsfsdf",
-        //                             "is_correct": false
-        //                         }
-        //                     ]
-        //                 }
-        //             ]
-        //         }
-        //     ]
-        // }
+      
        
        try{
         DB::beginTransaction();
