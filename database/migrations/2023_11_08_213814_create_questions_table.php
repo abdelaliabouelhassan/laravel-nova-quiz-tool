@@ -15,8 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('question');
             $table->bigInteger('quiz_id')->unsigned();
-            $table->boolean('comment');
-            $table->boolean('graded');
             $table->boolean('is_correct');
             $table->timestamps();
 

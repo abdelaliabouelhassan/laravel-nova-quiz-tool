@@ -32,4 +32,6 @@ class Quiz extends Tool
             ->path('/quiz')
             ->icon('server');
     }
+
+    
 }
