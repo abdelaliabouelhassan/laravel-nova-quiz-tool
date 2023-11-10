@@ -9,4 +9,3 @@
 
 ## About Laravel
 
-Hey, here is my WhatsApp number: +212 07 08 25 88 70. I did want to give it to you, but Fiverr does check my inbox messages frequently to look for any violations. So, I don't want to risk it. I would prefer to give it to you off the record.
