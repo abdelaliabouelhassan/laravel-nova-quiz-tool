@@ -11,7 +11,7 @@
         <div class="space-y-4 text-gray-500   dark:text-gray-400">
        
             <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                <li :class="{'text-green-400':item.is_correct}" v-for="(item,index,key) in question.answers" :key="key">{{item.answer}}</li>
+                <li :class="{'text-green-400':item.is_correct == true}" v-for="(item,index,key) in question.answers" :key="key">{{item.answer}}</li>
             </ul>
 
 
@@ -33,7 +33,7 @@
         <div class="space-y-4 text-gray-500   dark:text-gray-400">
        
             <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                <li :class="{'text-green-400':item.is_correct}" v-for="(item,index,key) in question.answers" :key="key">{{item.question}}</li>
+                <li :class="{'text-green-400':item.is_correct == 1}" v-for="(item,index,key) in question.answers" :key="key">{{item.question}}</li>
             </ul>
 
 
