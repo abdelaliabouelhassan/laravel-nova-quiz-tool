@@ -563,10 +563,10 @@ var _hoisted_3 = {
   "class": "fixed inset-0 z-10 w-screen overflow-y-auto"
 };
 var _hoisted_4 = {
-  "class": "flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+  "class": "flex min-h-full justify-center p-4 text-center items-center sm:p-0"
 };
 var _hoisted_5 = {
-  "class": "relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl"
+  "class": "relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 w-full sm:max-w-2xl"
 };
 var _hoisted_6 = {
   "class": "relative w-full max-h-full"
@@ -729,10 +729,10 @@ var _hoisted_3 = {
   "class": "fixed inset-0 z-10 w-screen overflow-y-auto"
 };
 var _hoisted_4 = {
-  "class": "flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+  "class": "flex min-h-full justify-center p-4 text-center items-center sm:p-0"
 };
 var _hoisted_5 = {
-  "class": "relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl"
+  "class": "relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 w-full sm:max-w-2xl"
 };
 var _hoisted_6 = {
   "class": "relative w-full max-h-full"
@@ -1104,7 +1104,7 @@ var _hoisted_2 = {
   "class": "w-full flex items-center justify-between"
 };
 var _hoisted_3 = {
-  "class": "absolute top-2 right-2"
+  "class": "absolute top-2 hidden sm:block right-2"
 };
 var _hoisted_4 = {
   "class": "text-blue-600 font-bold text-xl"

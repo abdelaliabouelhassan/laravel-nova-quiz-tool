@@ -44,6 +44,9 @@
 .tool-quiz :is(.flex) {
     display: flex
 }
+.tool-quiz :is(.hidden) {
+    display: none
+}
 .tool-quiz :is(.h-4) {
     height: 1rem
 }
@@ -475,6 +478,9 @@
     .tool-quiz :is(.sm\:my-8) {
         margin-top: 2rem;
         margin-bottom: 2rem
+    }
+    .tool-quiz :is(.sm\:block) {
+        display: block
     }
     .tool-quiz :is(.sm\:w-full) {
         width: 100%

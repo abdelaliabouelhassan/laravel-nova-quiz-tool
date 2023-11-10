@@ -14,7 +14,7 @@
       class=" w-full p-5 dark:bg-gray-800 relative"
     >
 
-    <div class=" absolute top-2 right-2">
+    <div class=" absolute top-2 hidden sm:block right-2">
       <span class=" text-blue-600 font-bold text-xl">Count of Filled Courses : ({{Questions.length}})</span> 
     </div>
 
