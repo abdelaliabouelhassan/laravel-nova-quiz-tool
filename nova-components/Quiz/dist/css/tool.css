@@ -108,6 +108,9 @@
 .tool-quiz :is(.justify-center) {
     justify-content: center
 }
+.tool-quiz :is(.justify-between) {
+    justify-content: space-between
+}
 .tool-quiz :is(.space-x-2 > :not([hidden]) ~ :not([hidden])) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -257,6 +260,10 @@
     font-size: 1.25rem;
     line-height: 1.75rem
 }
+.tool-quiz :is(.text-2xl) {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
 .tool-quiz :is(.font-bold) {
     font-weight: 700
 }
@@ -281,6 +288,10 @@
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity))
 }
+.tool-quiz :is(.text-green-400) {
+    --tw-text-opacity: 1;
+    color: rgb(74 222 128 / var(--tw-text-opacity))
+}
 .tool-quiz :is(.text-red-600) {
     --tw-text-opacity: 1;
     color: rgb(220 38 38 / var(--tw-text-opacity))
@@ -289,9 +300,12 @@
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
-.tool-quiz :is(.text-green-400) {
+.tool-quiz :is(.text-blue-500) {
     --tw-text-opacity: 1;
-    color: rgb(74 222 128 / var(--tw-text-opacity))
+    color: rgb(59 130 246 / var(--tw-text-opacity))
+}
+.tool-quiz :is(.underline) {
+    text-decoration-line: underline
 }
 .tool-quiz :is(.shadow) {
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);

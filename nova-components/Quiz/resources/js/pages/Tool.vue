@@ -1,9 +1,14 @@
 <template>
   <div class="tool-quiz">
-    <Head title="Quiz" />
+    <Head title="Create Quiz" />
 
 
-    <Heading class="mb-6">Quiz</Heading>
+   <div class=" w-full flex items-center justify-between">
+     <Heading class="mb-6">Create Quiz</Heading>
+    <inertia-link href="quiz/edit" class="text-2xl font-bold underline text-blue-500">
+      Edit Quiz
+    </inertia-link>
+   </div>
 
     <Card
       class=" w-full p-5 dark:bg-gray-800 relative"
@@ -71,7 +76,7 @@ const QuestionIndex = ref(0)
           question:'',
           has_comment:false,
           graded:false,
-          questions:[],
+          answers:[],
         }],
         
       })
@@ -82,7 +87,7 @@ const QuestionIndex = ref(0)
         question:'',
         has_comment:false,
         graded:false,
-        questions:[],
+        answers:[],
       })
     }
    
@@ -105,12 +110,6 @@ const QuestionIndex = ref(0)
   const Delete = (index) => {
     let course = Questions.value.find(item => item.course_id == selectedCourse.value)
     course.questions.splice(index,1)
-
-    // if(course.questions.length == 0){
-   
-    //    let Question_Index = Questions.value.indexOf(course)
-    //    Questions.value.splice(Question_Index,1)
-    // }
   }
 
 
@@ -135,7 +134,6 @@ watch(() => Questions.value, (newVal, oldVal) => {
     })
   }
    const Save = () => {
-    //validate question not empty [ { "course_id": 2, "questions": [] }, { "course_id": 3, "questions": [] } ]
     if(Questions.value.length == 0){
       alert('Please add a question')
       return

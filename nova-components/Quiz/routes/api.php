@@ -20,3 +20,6 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/courses',[CourseController::class,'getCourses']);
 Route::post('/save-quiz',[CourseController::class,'storeQuiz']);
+Route::get('/get-quiz/{course_id}',[CourseController::class,'getQuiz']);
+Route::post('/delete-question',[CourseController::class,'deleteQuestion']);
+Route::post('/update-quiz',[CourseController::class,'updateQuiz']);

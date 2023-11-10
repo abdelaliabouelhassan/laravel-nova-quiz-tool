@@ -16,4 +16,9 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 
 Route::get('/', function (NovaRequest $request) {
     return inertia('Quiz');
-});
+})->name('quiz');
+
+Route::get('/edit', function (NovaRequest $request) {
+    $backurl = route('quiz');
+    return inertia('EditQuiz', compact('backurl'));
+})->name('edit.quiz');
