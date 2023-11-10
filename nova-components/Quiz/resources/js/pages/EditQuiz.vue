@@ -37,8 +37,10 @@
          
         </div>
 
-        <div class=" w-full" v-if="Questions.length > 0">
+        <div class=" w-full flex items-center space-x-3 -space-y-2" v-if="Questions.length > 0">
            <button @click="Update"  type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Update Quiz</button>
+           <button @click="Cancel" data-modal-hide="default-modal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 uppercase">Cancel</button>
+           
         </div>
         
 
@@ -73,6 +75,7 @@ const selectedQuestion = ref({})
 
   const Edit = (item) => {
       selectedQuestion.value = item
+      EditQuestionModalRef.value.questionClone = JSON.parse(JSON.stringify(item))
       EditQuestionModalRef.value.open = true;
   }
 
@@ -88,7 +91,13 @@ const selectedQuestion = ref({})
    
 
   }
+ 
 
+ const Cancel = () => {
+  if(confirm('Are you sure you want to cancel?')){
+    getQuiz()
+  }
+ }
 
   
   

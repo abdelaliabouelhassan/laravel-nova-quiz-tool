@@ -130,6 +130,9 @@ __webpack_require__.r(__webpack_exports__);
     var __expose = _ref.expose;
     var props = __props;
     var open = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
+    var questionClone = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)({});
+    // questionClone.value = JSON.parse(JSON.stringify(props.question))
+
     var addAnswer = function addAnswer() {
       props.question.answers.push({
         answer: '',
@@ -196,15 +199,21 @@ __webpack_require__.r(__webpack_exports__);
     };
     var Cancel = function Cancel() {
       if (confirm('Are you sure you want to cancel? it will remove all the data you have entered')) {
+        props.question.title = questionClone.value.title;
+        props.question.answers = questionClone.value.answers;
+        props.question.comment = questionClone.value.comment;
+        props.question.graded = questionClone.value.graded;
         open.value = false;
       }
     };
     __expose({
-      open: open
+      open: open,
+      questionClone: questionClone
     });
     var __returned__ = {
       props: props,
       open: open,
+      questionClone: questionClone,
       addAnswer: addAnswer,
       isCommentChecked: isCommentChecked,
       setComment: setComment,
@@ -314,6 +323,7 @@ __webpack_require__.r(__webpack_exports__);
     };
     var Edit = function Edit(item) {
       selectedQuestion.value = item;
+      EditQuestionModalRef.value.questionClone = JSON.parse(JSON.stringify(item));
       EditQuestionModalRef.value.open = true;
     };
     var Delete = function Delete(item, index) {
@@ -324,6 +334,11 @@ __webpack_require__.r(__webpack_exports__);
           console.log(response.data);
           Questions.value.splice(index, 1);
         });
+      }
+    };
+    var Cancel = function Cancel() {
+      if (confirm('Are you sure you want to cancel?')) {
+        getQuiz();
       }
     };
     var loadCourses = function loadCourses() {
@@ -353,6 +368,7 @@ __webpack_require__.r(__webpack_exports__);
       getQuiz: getQuiz,
       Edit: Edit,
       Delete: Delete,
+      Cancel: Cancel,
       loadCourses: loadCourses,
       Update: Update,
       get axios() {
@@ -858,7 +874,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "data-modal-hide": "default-modal",
     type: "button",
     "class": "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 uppercase"
-  }, "Save Changes"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <button @click=\"Cancel\" data-modal-hide=\"default-modal\" type=\"button\" class=\"text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 uppercase\">Cancel</button> ")])])])])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true);
+  }, "Save Changes"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    onClick: $setup.Cancel,
+    "data-modal-hide": "default-modal",
+    type: "button",
+    "class": "text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 uppercase"
+  }, "Cancel")])])])])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true);
 }
 
 /***/ }),
@@ -1004,7 +1025,7 @@ var _hoisted_11 = ["onClick"];
 var _hoisted_12 = ["onClick"];
 var _hoisted_13 = {
   key: 1,
-  "class": "w-full"
+  "class": "w-full flex items-center space-x-3 -space-y-2"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -1072,7 +1093,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         onClick: $setup.Update,
         type: "button",
         "class": "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-      }, "Update Quiz")])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])];
+      }, "Update Quiz"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+        onClick: $setup.Cancel,
+        "data-modal-hide": "default-modal",
+        type: "button",
+        "class": "text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 uppercase"
+      }, "Cancel")])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])];
     }),
     _: 1 /* STABLE */
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["EditQuestionModal"], {

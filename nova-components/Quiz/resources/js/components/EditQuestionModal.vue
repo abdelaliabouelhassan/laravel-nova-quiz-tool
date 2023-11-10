@@ -55,10 +55,10 @@
                     </div>
                     <button @click="addAnswer" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 uppercase font-bold">Add Answer</button>
                 </div>
-               
+            
                 <div class="flex items-center justify-end p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button @click="Save" data-modal-hide="default-modal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 uppercase">Save Changes</button>
-                    <!-- <button @click="Cancel" data-modal-hide="default-modal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 uppercase">Cancel</button> -->
+                    <button @click="Cancel" data-modal-hide="default-modal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 uppercase">Cancel</button>
                 </div>
           
             </div>
@@ -80,6 +80,8 @@
     },
   })
  const open = ref(false)
+ const questionClone = ref({})
+// questionClone.value = JSON.parse(JSON.stringify(props.question))
 
  const addAnswer = () => {
   props.question.answers.push({
@@ -158,7 +160,11 @@
 
   const Cancel = () => {
     if(confirm('Are you sure you want to cancel? it will remove all the data you have entered')){
-     
+       props.question.title = questionClone.value.title
+        props.question.answers = questionClone.value.answers
+        props.question.comment = questionClone.value.comment
+        props.question.graded = questionClone.value.graded
+        
        open.value = false
       
     }
@@ -167,8 +173,11 @@
 
 
 
+
+
   defineExpose({
-    open
+    open,
+    questionClone
  })
 
  
